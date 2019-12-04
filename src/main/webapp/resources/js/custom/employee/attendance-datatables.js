@@ -1,0 +1,54 @@
+/* 
+ * 
+ */
+
+var table;
+
+$(window).on('load', function () {
+
+
+    // DATA TABLES
+    // =================================================================
+    // Require Data Tables
+    // -----------------------------------------------------------------
+    // http://www.datatables.net/
+    // =================================================================
+
+//    $.fn.DataTable.ext.pager.numbers_length = 5;
+//
+
+        table = $('#demo-dt-basic').DataTable();
+ 
+
+
+
+
+});
+
+function searchAttendance() {
+    var userCode = $("#user_code").val();
+    var yearVal;
+    if($("#year").val() == ""){
+        yearVal = 0;
+    }else{
+        yearVal = $("#year").val();
+    }
+    
+    var monthVal;
+    if($("#month").val() == ""){
+        monthVal = 0;
+    }else{
+        monthVal = $("#month").val();
+    }
+    
+    var dayVal;
+    if($("#day").val() == ""){
+        dayVal = 0;
+    }else{
+        dayVal = $("#day").val();
+    }
+  
+     
+    $('#demo-dt-basic').DataTable().ajax.url(contextPath + "/employee/viewEmpAttendances?user_code="+userCode+"&year="+yearVal+"&month="+monthVal+"&day="+dayVal).load();
+
+}

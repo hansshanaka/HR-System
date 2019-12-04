@@ -1,0 +1,50 @@
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 568px) {
+
+    .lable_custom{border-style: groove;width: 100%;text-align: left !important;}
+    .text-info_custom{text-align: left !important;}
+    .optionMargin_custom {margin-left: 12px;}
+    .datepickerImage_custom{width: 11px;position: absolute;bottom: 1px;left: 145px;height: 28px;}
+    .wellFieldCustom {background-color: #FFF !important;}
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+
+    .accordian_custom {padding-left: 20%;}
+    .panel_custom {margin-bottom: 6px;}
+    .lable_custom{border-style: none;width: 100%;text-align: left !important;}
+    .text-info_custom{text-align: left !important;}
+    .checkBox_custom{position: absolute;left: 670px;}
+    .datePicker_custom {height: 33px;}
+    .datepickerImage_custom{width: 11px;position: absolute;bottom: 0px;left: 97%;height: 33px;}
+    span.datepickerImage_custom.datepickerRight_custom {left: 111px;top: 0;}
+    .dateTextbox_custom{position: absolute;right: 95px;width: 230px;}
+    .dateLable_custom{text-align: left!important;}
+    .control-label_custom{text-align: left !important;}
+    .radioBtnPosition_custom{top: 6px;}
+    .dropdownSize_custom{width: 55%;}
+    .wellFieldCustom {background-color: #FFF !important;}
+}
+
+/* Desktops and laptops ----------- */
+@media only screen  and (min-width : 1224px) {
+    .lable_custom{border-style: none;width: 100%;text-align: left !important;}
+    .pad-ver_custom{padding-top: 6px;padding-bottom: 15px;}
+    /*.text-info_custom{text-align: left !important;}*/
+    .checkBox_custom{position: absolute;left: 670px;}
+    .datePicker_custom {height: 33px;width: 227px;}
+    .datepickerImage_custom{width: 11px;position: absolute;bottom: 0px;left: 194px;height: 33px;}
+    span.datepickerImage_custom.datepickerRight_custom {left: 111px;top: 0;}
+    .dateTextbox_custom{position: absolute;right: 11px;width: 230px;}
+    .dateLable_custom{text-align: left!important;}
+    .col-md-2.lableAmount_custom {top: 7px;}
+    .rightSideTxt_custom{position: absolute;right: 185px;}
+    /*}   .datepickerImageRight_custom{width: 11px;position: absolute;bottom: 0px;left: 194px;height: 33px;}*/
+    .priceLable_custom{bottom: 8px;text-align: center !important;}
+
+    /*POPUP*/
+
+    #modelContent{right: 52%;min-width: 209%;}
+    .wellFieldCustom {background-color: #FBFBFB !important;}

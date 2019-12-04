@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context antiJARLocking="true" path="/MIHRSystem">
+  <Resource auth="Container" 
+            closeMethod="close" 
+            driverClassName="com.mysql.jdbc.Driver" 
+            maxActive="100" maxIdle="30" 
+            maxWait="1500" 
+            minIdle="5" name="jdbc/mySql" 
+            password="root" 
+            removeAbandoned="true" 
+            removeAbandonedTimeout="60" 
+            testOnBorrow="true" 
+            testOnReturn="false" 
+            testWhileIdle="true" 
+            type="javax.sql.DataSource" 
+            url="jdbc:mysql://127.0.0.1/hrmisyn_live?autoReconnect=true&amp;useEncoding=true&amp;characterEncoding=UTF-8" 
+            username="root" 
+            validationInterval="30000" 
+            validationQuery="select 1"/>
+</Context>
